@@ -7,6 +7,8 @@
 }
 body{
   font-family: montserrat;
+  width: 100%;
+  height: 100%;
 }
 #search{
   color:white;
@@ -24,8 +26,9 @@ nav{
   background: #0082e6;
   height: 80px;
   width: 100%;
-  position: fixed;
+  position: sticky;
 }
+
 label.logo{
   color: white;
   font-size: 35px;
@@ -33,6 +36,7 @@ label.logo{
   padding: 0 100px;
   font-weight: bold;
 }
+
 nav ul{
   float: right;
   margin-right: 20px;
@@ -75,14 +79,14 @@ a.active,a:hover{
   }
 }
 
-.row , .column{
+.video-frame-wrapper , .video-frame-parent{
   background-color: white;
 }
 @media (max-width: 979px){
   .checkbtn{
     display: block;
   }
-  ul{
+  nav ul{
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -108,21 +112,25 @@ a.active,a:hover{
     left: 0;
   }
 }
-.row {
+.video-frame-wrapper {
   display: flex;
   flex-wrap: wrap;
+  width:100%;
 }
-.column {
+.video-frame-parent {
   text-align: center;
   width: 25%;
   padding: 10px;
+}
+.video-frame-parent2{
+  text-align: center;
 }
 
 .heading{
   padding: 30px;
 }
 
-hr { 
+h1.heading { 
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -133,14 +141,14 @@ hr {
 } 
 
 /* Clear floats after the columns */
-.row:after {
+.video-frame-wrapper:after {
   content: "";
   display: table;
   clear: both;
 }
 
 @media screen and (max-width: 700px) and (min-width : 150px) {
-  .column  {
+  .video-frame-parent  {
     width: 100%;
   }
   label.logo{
@@ -151,7 +159,7 @@ hr {
 }
 
 @media screen and (max-width: 979px) and (min-width : 701px) {
-  .column  {
+  .video-frame-parent  {
     width: 50%;
   }
   label.logo{
@@ -161,7 +169,7 @@ hr {
   }
 }
 @media screen and (max-width: 1185px) and (min-width : 980px) {
-  .column  {
+  .video-frame-parent  {
     width: 33.33%;
   }
 }
