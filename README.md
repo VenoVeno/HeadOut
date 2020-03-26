@@ -9,6 +9,17 @@ Run index.html located in public directory
 * An internet connection is required to load cdn links
 * Browser to run the html file
 
+
+## Live working 
+
+  [HeadOut Video Player](https://headout-v.firebaseapp.com/) 
+  
+  The URL to the website
+  
+  ```
+  https://headout-v.firebaseapp.com/
+  ```
+
 ## Built with
 
 * [Fonts](https://kit.fontawesome.com/a076d05399.js) - Font Awesome
