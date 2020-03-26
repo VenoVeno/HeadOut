@@ -17,6 +17,12 @@ Run index.html located in public directory
   ```
   https://headout-v.firebaseapp.com/
   ```
+  
+   Shortened URL
+   
+   ```
+   https://bit.ly/39fRBjC
+   ```
 
 ## Built with
 
