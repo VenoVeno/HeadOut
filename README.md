@@ -11,8 +11,6 @@ Run index.html located in public directory
 
 
 ## Live working 
-
-  [HeadOut Video Player](https://headout-v.firebaseapp.com/) 
   
   The URL to the website
   
