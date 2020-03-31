@@ -1,14 +1,22 @@
 # HeadOut
 
 ## How to run
-
-Run index.html located in public directory 
-
+  
+  ### Download:
+  
+  ```
+  Clone or download the project from my github
+  ```
+  
+  ### Run:
+  
+  ```
+  Run index.html located in public directory 
+  ```
 ## Prerequisites
 
 * An internet connection is required to load cdn links
 * Browser to run the html file
-
 
 ## Live working 
   
